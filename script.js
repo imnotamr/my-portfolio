@@ -5,6 +5,6 @@ function showSection(sectionId) {
         section.style.display = "none";
     });
 
-    // إظهار القسم المختار
+    // إظهار القسم المطلوب
     document.getElementById(sectionId).style.display = "block";
 }
