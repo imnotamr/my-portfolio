@@ -3,52 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amr's Portfolio</title>
+    <title>Amr's CV</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
-        <h1>👋 Hi, I'm Amr</h1>
-        <p>AI & Web Developer | Machine Learning Enthusiast</p>
-        <div class="social-links">
-            <a href="https://github.com/imnotamr" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
-        </div>
+        <h1>👋 Welcome to My CV</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('education')">Education</a></li>
+                <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                <li><a href="#" onclick="showSection('internships')">Internships</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="about">
-        <h2>🚀 About Me</h2>
-        <p>I'm passionate about AI, Web Development, and building innovative solutions using Machine Learning.</p>
+    <section id="home" class="content-section">
+        <h2>About Me</h2>
+        <p>I'm Amr Ahmed, a Computer Engineer specializing in AI, Machine Learning, and Cloud Computing.</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/amr-ahmed-8476601b7" target="_blank">View Profile</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/imnotamr" target="_blank">View Repos</a></p>
     </section>
 
-    <section id="projects">
-        <h2>📂 My Top Projects</h2>
-        <div class="project-card">
-            <h3><a href="https://github.com/imnotamr/VegetableClassificationAppFEHU" target="_blank">Vegetable Classification App 🍅🥕</a></h3>
-            <p>A deep learning-based web application for vegetable classification.</p>
-        </div>
-        <div class="project-card">
-            <h3><a href="https://github.com/imnotamr/English-to-French-app-using-STREAMLIT-" target="_blank">English-to-French Translator 🌍</a></h3>
-            <p>Interactive translation app with Google Translate API and text-to-speech.</p>
-        </div>
+    <section id="education" class="content-section" style="display: none;">
+        <h2>🎓 Education</h2>
+        <p>Bachelor of Science in Computer and Communication Engineering</p>
+        <p><strong>University:</strong> Helwan University, Cairo, Egypt</p>
+        <p><strong>Graduation:</strong> June 2025</p>
+        <p><strong>Grade:</strong> Good</p>
     </section>
 
-    <section id="github-stats">
-        <h2>📊 GitHub Stats</h2>
-        <div class="stats-container">
-            <img src="https://github-readme-stats.vercel.app/api?username=imnotamr&show_icons=true&theme=tokyonight" alt="GitHub Stats">
-            <img src="https://github-readme-streak-stats.herokuapp.com/?user=imnotamr&theme=tokyonight" alt="GitHub Streak">
-        </div>
+    <section id="skills" class="content-section" style="display: none;">
+        <h2>🛠 Technical Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, Java, C++</li>
+            <li>AI/ML Frameworks: TensorFlow, Keras, PyTorch</li>
+            <li>Data Analysis Tools: NumPy, Pandas, Matplotlib, Seaborn</li>
+            <li>Cloud Computing: AWS, Azure, GCP</li>
+            <li>Software: Jupyter Notebook, SQL Server</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="content-section" style="display: none;">
+        <h2>📂 Projects</h2>
+        <p>Here are some of my top projects:</p>
+        <ul>
+            <li><strong>Library Management System:</strong> Built using OOP principles.</li>
+            <li><strong>Titanic Survival Prediction:</strong> Used logistic regression & decision trees.</li>
+            <li><strong>Real-time Sentiment Analysis:</strong> Implemented with TensorFlow & Keras.</li>
+            <li><strong>Image Classification:</strong> Applied CNNs to classify objects.</li>
+        </ul>
+    </section>
+
+    <section id="internships" class="content-section" style="display: none;">
+        <h2>💼 Internships</h2>
+        <p><strong>AWS Cloud Practitioner - NTI</strong> (July 2024 - Aug 2024)</p>
+        <p>Completed 60-hour training on AWS Core Services, Cloud Security, and Architecting.</p>
+
+        <p><strong>Artificial Intelligence Training - NTI</strong> (Sept 2024)</p>
+        <p>120-hour AI program covering machine learning, deep learning, and freelancing.</p>
+    </section>
+
+    <section id="contact" class="content-section" style="display: none;">
+        <h2>📞 Contact Me</h2>
+        <p>Email: <a href="mailto:amrahmedll201@gmail.com">amrahmedll201@gmail.com</a></p>
+        <p>Phone: +201147911949</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/amr-ahmed-8476601b7" target="_blank">Profile</a></p>
     </section>
 
     <footer>
-        <p>📫 Connect with me: 
-            <a href="mailto:your-email@example.com">Email</a> | 
-            <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a> | 
-            <a href="https://github.com/imnotamr" target="_blank">GitHub</a>
-        </p>
+        <p>© 2025 Amr Ahmed | Powered by GitHub Pages</p>
     </footer>
 </body>
 </html>
