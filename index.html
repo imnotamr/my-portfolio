@@ -1,85 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Amr Ahmed | Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amr Ahmed | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Amr Ahmed | Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#" onclick="showSection('home')">Home</a></li>
-                <li><a href="#" onclick="showSection('education')">Education</a></li>
-                <li><a href="#" onclick="showSection('skills')">Skills</a></li>
-                <li><a href="#" onclick="showSection('projects')">Projects</a></li>
-                <li><a href="#" onclick="showSection('internships')">Internships</a></li>
-                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <div class="logo">Amr Ahmed</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#internships">Internships</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-        <section id="home" class="content-section">
-            <h2>About Me</h2>
-            <p>I’m <strong>Amr Ahmed</strong>, a Computer Engineer passionate about AI, Machine Learning, and Cloud Computing.</p>
-            <p>Skilled in Python, Java, and C++. I enjoy solving problems and building AI-powered web apps.</p>
-            <div class="links">
-                <a href="https://www.linkedin.com/in/amr-ahmed-8476601b7" target="_blank">LinkedIn</a>
-                <a href="https://github.com/imnotamr" target="_blank">GitHub</a>
-            </div>
-        </section>
+  <main>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>I’m <strong>Amr Ahmed</strong>, a Computer Engineer specializing in AI, Machine Learning, and Cloud Computing.</p>
+      <p>I build smart, scalable web and AI applications using modern technologies like Python, TensorFlow, and AWS.</p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/amr-ahmed-8476601b7" target="_blank">LinkedIn</a>
+        <a href="https://github.com/imnotamr" target="_blank">GitHub</a>
+      </div>
+    </section>
 
-        <section id="education" class="content-section" style="display: none;">
-            <h2>Education</h2>
-            <p><strong>University:</strong> Helwan University</p>
-            <p><strong>Degree:</strong> BSc in Computer and Communication Engineering</p>
-            <p><strong>Graduation:</strong> June 2025</p>
-            <p><strong>Grade:</strong> Good</p>
-        </section>
+    <section id="skills" class="section alt">
+      <h2>Skills</h2>
+      <ul>
+        <li>Languages: Python, Java, C++</li>
+        <li>AI/ML: TensorFlow, Keras, PyTorch</li>
+        <li>Data: Pandas, NumPy, Matplotlib</li>
+        <li>Cloud: AWS, Azure, GCP</li>
+      </ul>
+    </section>
 
-        <section id="skills" class="content-section" style="display: none;">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming: Python, Java, C++</li>
-                <li>AI/ML: TensorFlow, Keras, PyTorch</li>
-                <li>Data: NumPy, Pandas, Matplotlib</li>
-                <li>Cloud: AWS, Azure, GCP</li>
-            </ul>
-        </section>
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3><a href="https://github.com/imnotamr/VegetableClassificationAppFEHU" target="_blank">Vegetable Classifier</a></h3>
+        <p>Streamlit web app that classifies vegetables using deep learning.</p>
+      </div>
+      <div class="project-card">
+        <h3><a href="https://github.com/imnotamr/English-to-French-app-using-STREAMLIT-" target="_blank">English-French Translator</a></h3>
+        <p>Translator app using Google Translate API & Text-to-Speech.</p>
+      </div>
+    </section>
 
-        <section id="projects" class="content-section" style="display: none;">
-            <h2>Projects</h2>
-            <div class="project-card">
-                <h3><a href="https://github.com/imnotamr/VegetableClassificationAppFEHU" target="_blank">Vegetable Classification App</a></h3>
-                <p>Streamlit-based web app for vegetable classification using deep learning.</p>
-            </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/imnotamr/English-to-French-app-using-STREAMLIT-" target="_blank">English-to-French Translator</a></h3>
-                <p>Translator with Google Translate API and text-to-speech using Streamlit.</p>
-            </div>
-        </section>
+    <section id="internships" class="section alt">
+      <h2>Internships</h2>
+      <p><strong>AWS Cloud Practitioner – NTI (2024)</strong></p>
+      <p><strong>AI Training – NTI (2024)</strong></p>
+    </section>
 
-        <section id="internships" class="content-section" style="display: none;">
-            <h2>Internships</h2>
-            <p><strong>AWS Cloud Practitioner - NTI</strong> (Jul–Aug 2024)</p>
-            <p>60-hour training on AWS Core Services, Cloud Security, and Architecture.</p>
-            <p><strong>AI Training - NTI</strong> (Sep 2024)</p>
-            <p>120-hour program covering ML, DL, and real-world AI applications.</p>
-        </section>
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:amrahmedll201@gmail.com">amrahmedll201@gmail.com</a></p>
+      <p>Phone: +20 114 791 1949</p>
+    </section>
+  </main>
 
-        <section id="contact" class="content-section" style="display: none;">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:amrahmedll201@gmail.com">amrahmedll201@gmail.com</a></p>
-            <p>Phone: +20 114 791 1949</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Amr Ahmed. Powered by GitHub Pages.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 Amr Ahmed. Built with 💻 & GitHub Pages</p>
+  </footer>
 </body>
 </html>
