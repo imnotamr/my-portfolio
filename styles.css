@@ -1,32 +1,28 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #1c1c1e;
-    color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 
 header {
-    background-color: #141414;
+    background-color: #ffffff;
     padding: 20px;
     text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #ddd;
 }
 
 header h1 {
     margin: 0;
-    font-size: 28px;
-    color: #00d4ff;
+    font-size: 24px;
+    color: #0077cc;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 15px 0 0 0;
+    margin: 20px 0 0;
 }
 
 nav ul li {
@@ -36,69 +32,65 @@ nav ul li {
 
 nav ul li a {
     padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #007bff;
+    background-color: #0077cc;
     color: white;
-    transition: 0.3s;
-    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #0056b3;
-    text-decoration: none;
+    background-color: #005fa3;
 }
 
 main {
-    padding: 30px 20px;
+    padding: 20px;
 }
 
 .content-section {
-    background-color: #2a2a2d;
+    background-color: #ffffff;
     margin: 20px auto;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     max-width: 800px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.content-section h2 {
-    color: #00d4ff;
+h2 {
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
 }
 
 .project-card {
-    background-color: #1f1f1f;
+    background-color: #f0f0f0;
     padding: 15px;
     margin-top: 15px;
-    border-left: 4px solid #00d4ff;
-    border-radius: 6px;
+    border-left: 4px solid #0077cc;
+    border-radius: 5px;
 }
 
 a {
-    color: #00d4ff;
+    color: #0077cc;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ff007b;
+    text-decoration: underline;
 }
 
 .links a {
     display: inline-block;
     margin-right: 10px;
-    padding: 8px 12px;
-    background-color: #444;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-.links a:hover {
-    background-color: #666;
+    font-weight: bold;
 }
 
 footer {
+    background-color: #0077cc;
+    color: white;
     text-align: center;
-    padding: 20px;
-    background-color: #141414;
-    border-top: 1px solid #333;
-    color: #999;
+    padding: 15px;
+    margin-top: 40px;
 }
