@@ -1,5 +1,5 @@
 function showSection(sectionId) {
-    let sections = document.querySelectorAll('.content-section');
+    const sections = document.querySelectorAll('.content-section');
     sections.forEach(section => {
         section.style.display = "none";
     });
